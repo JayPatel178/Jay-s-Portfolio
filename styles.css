@@ -85,9 +85,7 @@ body {
   background-image: var(--gradient-1);
 }
 
-nav {
-  position: fixed;
-  isolation: isolate;
+.nav {
   top: 0;
   width: 100%;
   max-width: var(--max-width);
@@ -209,7 +207,7 @@ nav {
 }
 
 .about__img {
-  border-radius: 100%;
+  border-radius: 20%;
 }
 
 .about__bg-1,
@@ -242,9 +240,8 @@ nav {
   
 }
 .skill__card{
-padding: 10px;
-  overflow: hidden;
-  width: 200px;
+  padding: 10px;
+  mix-blend-mode: multiply;
   border-radius: 2rem;
   
 }
@@ -388,9 +385,9 @@ padding: 10px;
 }
 
 @media (width > 768px) {
-  nav {
+  .nav {
     padding: 2rem 1rem;
-    position: static;
+    position: sticky;
     display: flex;
     align-items: center;
     justify-content: space-between;

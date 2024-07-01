@@ -54,10 +54,7 @@ ScrollReveal().reveal(".about__content .about__btn", {
 });
 
 //skills container
-ScrollReveal().reveal(".skill__card", {
-  duration: 1000,
-  interval: 500,
-});
+
 
 // service container
 ScrollReveal().reveal(".service__card", {
